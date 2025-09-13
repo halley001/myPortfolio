@@ -1,6 +1,6 @@
 # Halley Hart | IT Portfolio
 
-This is a personal portfolio website showcasing the skills, experience, and education of Halley Hart, an IT Assistant specializing in SQL Server and Network Administration.
+This is a personal portfolio website showcasing the skills, experience, and education of Halley Hart, an IT Assistant specializing in Software Development.
 
 ## Features
 - Responsive design using Bootstrap 5
