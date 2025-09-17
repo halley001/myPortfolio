@@ -5,108 +5,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halley Hart | IT Portfolio</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Materialize JS -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
-    <header class="bg-dark text-white p-3 mb-4">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center">
-            <h1 class="h3 mb-0">Halley Hart</h1>
-            <nav>
-                <a href="#about" class="text-white me-3">About</a>
-                <a href="#skills" class="text-white me-3">Skills</a>
-                <a href="#experience" class="text-white me-3">Experience</a>
-                <a href="#education" class="text-white me-3">Education</a>
-                <a href="#contact" class="text-white">Contact</a>
-            </nav>
+        <!-- Navbar -->
+        <nav class="nav-extended blue darken-4">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">Halley Hart</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Parallax Hero Section -->
+        <div class="parallax-container valign-wrapper" style="height: 350px;">
+            <div class="container center-align">
+                <h2 class="white-text" style="text-shadow: 0 2px 8px #000; font-weight:700; letter-spacing:0.03em;">Halley Hart</h2>
+                <h5 class="white-text" style="text-shadow: 0 1px 4px #000; font-weight: 400; margin-bottom:1.5rem;">DevOps | Software Engineer | AI Engineer | Visionary Technologist</h5>
+                <p class="white-text flow-text" style="text-shadow: 0 1px 4px #000; font-size:1.3rem; max-width:700px; margin:0 auto;">Building the future of technology through relentless innovation, leadership, and a passion for solving humanity’s greatest challenges.</p>
+            </div>
+            <div class="parallax"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80" alt="IT background"></div>
         </div>
-    </header>
     <main class="container">
-        <section class="mb-5 text-center">
-            <h2 class="mb-3">IT Assistant | SQL Server | Network Administration</h2>
-            <p class="lead">Professional portfolio showcasing my skills, experience, and academic journey.</p>
-        </section>
-        <section id="about" class="mb-5">
-            <h3>About Me</h3>
-            <p>During my academic journey, I have been privileged to receive scholarships that recognized both my potential and my commitment to education. While pursuing my studies at Final International University in Cyprus, I was awarded a 50% tuition scholarship. This opportunity enabled me to begin my international education and exposed me to a multicultural learning environment that broadened my academic perspective. The scholarship not only eased the financial burden of studying abroad but also reaffirmed my determination to make the most of every opportunity granted to me.</p>
-            <p>However, due to financial constraints caused by the crisis in my home country, I was unable to complete my education in Cyprus and had to return to Cameroon to continue my studies at IUGET University. Despite this challenge, I remained focused on my goals and worked hard to prove myself academically. In recognition of my performance and dedication, I was awarded a 50,000 FRS scholarship during my third year at IUGET. This scholarship served as both financial support and encouragement, reinforcing my belief that resilience and persistence are key to overcoming obstacles.</p>
-            <p>These two scholarships hold deep personal significance for me. They symbolize not only recognition of past achievements but also a responsibility to strive for excellence in the future. They have motivated me to remain steadfast in the pursuit of my academic and professional aspirations, despite the challenges I have faced. With this support, I continue to push forward, determined to use my education as a tool to contribute meaningfully to society.</p>
-        </section>
+                <div class="section" id="about">
+                    <div class="card blue-grey lighten-5 z-depth-2">
+                        <div class="card-content">
+                            <span class="card-title">About Me</span>
+                            <p>Driven by a vision to accelerate progress and empower communities, I blend expertise in DevOps, software engineering, and artificial intelligence to deliver transformative solutions. As an <strong>IT Assistant at CamCCUL</strong>, I champion operational excellence and digital innovation. My journey as an <strong>ALX Fellow</strong> and <strong>YALI Member</strong> reflects my commitment to leadership, lifelong learning, and making a global impact.</p>
+                            <p>I believe in harnessing technology to solve complex problems, inspire teams, and shape a better future. My work is guided by curiosity, resilience, and a relentless pursuit of excellence.</p>
+                        </div>
+                    </div>
+                </div>
         <section id="skills" class="mb-5">
-            <h3>Skills</h3>
-            <ul>
-                <li>SQL Server Administration</li>
-                <li>Network Administration</li>
-                <li>IT Support & Troubleshooting</li>
-                <li>System Security & Backups</li>
-                <li>Hardware & Software Installation</li>
-                <li>Technical Documentation</li>
-                <li>Team Collaboration</li>
-            </ul>
+                    <div class="section" id="skills">
+                        <div class="card z-depth-1">
+                            <div class="card-content">
+                                <span class="card-title">Skills</span>
+                                <ul class="collection">
+                                    <li class="collection-item"><strong>DevOps & Cloud Engineering</strong> — Automation, CI/CD, Infrastructure as Code</li>
+                                    <li class="collection-item"><strong>Software Engineering</strong> — Python, JavaScript, SQL, Scalable Systems</li>
+                                    <li class="collection-item"><strong>AI & Machine Learning</strong> — Applied AI, Data-Driven Solutions</li>
+                                    <li class="collection-item"><strong>IT Operations</strong> — Network Administration, Security, Support</li>
+                                    <li class="collection-item"><strong>Leadership & Collaboration</strong> — Team Building, Technical Communication</li>
+                                    <li class="collection-item"><strong>Innovation</strong> — Problem Solving, Rapid Prototyping, Growth Mindset</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
         </section>
         <section id="experience" class="mb-5">
-            <h3>Experience</h3>
-            <div class="mb-3">
-                <h5>IT Assistant <span class="text-muted">@ CamCCUL Ltd</span></h5>
-                <small>Cameroon | Oct 2024 - Present</small>
-                <ul>
-                    <li>Ensured smooth operation of servers, computer systems, and networks.</li>
-                    <li>Provided hands-on support to staff and users, troubleshooting hardware, software, and connectivity issues.</li>
-                    <li>Assisted with setup of new devices and application installations.</li>
-                    <li>Maintained system security, performed updates, and ensured reliable data backups.</li>
-                </ul>
-            </div>
-            <div class="mb-3">
-                <h5>Professional Internship <span class="text-muted">@ Innovative Technologies (I-TECH)</span></h5>
-                <small>Cameroon | Jun 2022 - Aug 2024</small>
-                <ul>
-                    <li>Assisted with system installations and application testing.</li>
-                    <li>Supported software development and deployment processes.</li>
-                    <li>Troubleshot issues and contributed to real-world fintech projects.</li>
-                </ul>
-            </div>
-            <div class="mb-3">
-                <h5>Construction Assistant <span class="text-muted">@ Turan Construction</span></h5>
-                <small>Cameroon</small>
-                <ul>
-                    <li>Assisted with cement mixing, material transport, and on-site support.</li>
-                    <li>Followed safety protocols and supported workflow efficiency.</li>
-                </ul>
-            </div>
-            <div class="mb-3">
-                <h5>Technical Trainee <span class="text-muted">@ Mega Digital Cable Network</span></h5>
-                <small>Bamenda, Cameroon | 2016</small>
-                <ul>
-                    <li>Assisted with digital cable installations and troubleshooting.</li>
-                    <li>Maintained cable lines and repaired amplifiers.</li>
-                </ul>
-            </div>
-            <div class="mb-3">
-                <h5>IT Support Trainee <span class="text-muted">@ G-Informatic</span></h5>
-                <small>Bamenda, Cameroon | 2014 - 2016</small>
-                <ul>
-                    <li>Diagnosed and repaired computers and printers.</li>
-                    <li>Assisted with documentation and record-keeping.</li>
-                </ul>
-            </div>
-        </section>
+                    <div class="section" id="experience">
+                                    <div class="row">
+                                        <div class="col s12 m6 l4">
+                                            <div class="card hoverable">
+                                                <div class="card-content">
+                                                    <span class="card-title">IT Assistant <span class="grey-text text-darken-1" style="font-size:0.9em;">@ CamCCUL Ltd</span></span>
+                                                    <p class="grey-text">Cameroon | Oct 2024 - Present</p>
+                                                    <ul>
+                                                        <li>Ensured smooth operation of servers, systems, and networks.</li>
+                                                        <li>Provided hands-on support and troubleshooting.</li>
+                                                        <li>Maintained security, updates, and reliable backups.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m6 l4">
+                                            <div class="card hoverable">
+                                                <div class="card-content">
+                                                    <span class="card-title">ALX Fellow</span>
+                                                    <p class="grey-text">Africa | 2023 - Present</p>
+                                                    <ul>
+                                                        <li>Completed intensive software engineering and leadership program.</li>
+                                                        <li>Collaborated on real-world projects and open source.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m6 l4">
+                                            <div class="card hoverable">
+                                                <div class="card-content">
+                                                    <span class="card-title">AI Engineer</span>
+                                                    <p class="grey-text">Remote | 2023 - Present</p>
+                                                    <ul>
+                                                        <li>Developed and deployed AI-driven solutions.</li>
+                                                        <li>Applied machine learning to solve business challenges.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m6 l4">
+                                            <div class="card hoverable">
+                                                <div class="card-content">
+                                                    <span class="card-title">YALI Member</span>
+                                                    <p class="grey-text">Africa | 2022 - Present</p>
+                                                    <ul>
+                                                        <li>Active member of the Young African Leaders Initiative.</li>
+                                                        <li>Promoting leadership and community impact.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m6 l4">
+                                            <div class="card hoverable">
+                                                <div class="card-content">
+                                                    <span class="card-title">Professional Internship</span>
+                                                    <p class="grey-text">Innovative Technologies (I-TECH), Cameroon | Jun 2022 - Aug 2024</p>
+                                                    <ul>
+                                                        <li>Supported system installations and application testing.</li>
+                                                        <li>Contributed to software development and deployment.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m6 l4">
+                                            <div class="card hoverable">
+                                                <div class="card-content">
+                                                    <span class="card-title">Technical Trainee</span>
+                                                    <p class="grey-text">Mega Digital Cable Network, Bamenda | 2016</p>
+                                                    <ul>
+                                                        <li>Assisted with digital cable installations and troubleshooting.</li>
+                                                        <li>Maintained cable lines and repaired amplifiers.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    </div>
         <section id="education" class="mb-5">
-            <h3>Education</h3>
-            <ul>
-                <li><strong>Bachelor of Technology</strong> (Class B), IUGET, Cameroon, 02 Oct 2023 - 04 Jul 2024, Awarded: 10 Sep 2024</li>
-                <li><strong>Higher National Diploma</strong> (Class B), IUGET, Cameroon, 03 Oct 2023 - 04 Aug 2023, Awarded: 16 Aug 2023</li>
-                <li><strong>GCE Advanced Level</strong>, P.C.H.S Bamenda, Cameroon, 03 Sep 2018 - 02 Aug 2019</li>
-                <li><strong>GCE Ordinary Level</strong>, P.C.H.S Bamenda, Cameroon, 03 Sep 2014 - 02 Aug 2015</li>
-            </ul>
-        </section>
+                    <div class="section" id="education">
+                        <div class="card z-depth-1">
+                            <div class="card-content">
+                                <span class="card-title">Education</span>
+                                <ul class="collection">
+                                    <li class="collection-item"><strong>Bachelor of Technology</strong> (Class B), IUGET, Cameroon, 02 Oct 2023 - 04 Jul 2024, Awarded: 10 Sep 2024</li>
+                                    <li class="collection-item"><strong>Higher National Diploma</strong> (Class B), IUGET, Cameroon, 03 Oct 2023 - 04 Aug 2023, Awarded: 16 Aug 2023</li>
+                                    <li class="collection-item"><strong>GCE Advanced Level</strong>, P.C.H.S Bamenda, Cameroon, 03 Sep 2018 - 02 Aug 2019</li>
+                                    <li class="collection-item"><strong>GCE Ordinary Level</strong>, P.C.H.S Bamenda, Cameroon, 03 Sep 2014 - 02 Aug 2015</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
         <section id="contact" class="mb-5">
-            <h3>Contact</h3>
-            <!-- TODO: Update your email and LinkedIn below before publishing -->
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn</a></p>
-        </section>
-    </main>
-    <footer class="bg-dark text-white text-center p-3 mt-4">
-        &copy; 2025 Halley Hart. All rights reserved.
-    </footer>
+                    <div class="section" id="contact">
+                                    <div class="card z-depth-1">
+                                        <div class="card-content">
+                                            <span class="card-title">Contact</span>
+                                            <form action="#" method="POST">
+                                                <div class="row">
+                                                    <div class="input-field col s12 m6">
+                                                        <input id="name" name="name" type="text" class="validate" required>
+                                                        <label for="name">Name</label>
+                                                    </div>
+                                                    <div class="input-field col s12 m6">
+                                                        <input id="email" name="email" type="email" class="validate" required>
+                                                        <label for="email">Email</label>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <textarea id="message" name="message" class="materialize-textarea" required></textarea>
+                                                        <label for="message">Message</label>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <button class="btn blue darken-4 waves-effect waves-light" type="submit">Send Message</button>
+                                                        <a href="assets/Halley_Hart_Resume.txt" class="btn-flat waves-effect right" download><i class="material-icons left">file_download</i>Download Resume</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                    </div>
+                </main>
+                <!-- Parallax Footer -->
+                <div class="parallax-container" style="height: 180px;">
+                    <div class="parallax"><img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" alt="Footer background"></div>
+                </div>
+                <footer class="page-footer blue darken-4">
+                    <div class="container center-align">
+                        &copy; 2025 Halley Hart. All rights reserved.
+                    </div>
+                </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var elemsSidenav = document.querySelectorAll('.sidenav');
+                M.Sidenav.init(elemsSidenav);
+                var elemsCollapsible = document.querySelectorAll('.collapsible');
+                M.Collapsible.init(elemsCollapsible);
+                var elemsParallax = document.querySelectorAll('.parallax');
+                M.Parallax.init(elemsParallax);
+            });
+        </script>
 </body>
 </html>

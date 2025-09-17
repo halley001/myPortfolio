@@ -1,0 +1,31 @@
+Halley Hart
+DevOps | Software Engineer | IT Assistant @CamCCUL | ALX Fellow | AI Engineer | YALI Member
+
+---
+
+# Resume
+
+## Profile
+Visionary technologist with a passion for building scalable solutions and empowering teams. Experienced in DevOps, software engineering, AI, and IT operations.
+
+## Experience
+- IT Assistant, CamCCUL Ltd
+- ALX Fellow
+- AI Engineer
+- YALI Member
+
+## Skills
+- DevOps & Cloud Engineering
+- Software Engineering (Python, JavaScript, SQL)
+- AI & Machine Learning
+- IT Operations
+- Leadership & Collaboration
+- Innovation
+
+## Education
+- Bachelor of Technology, IUGET, Cameroon
+- Higher National Diploma, IUGET, Cameroon
+
+## Contact
+Email: your.email@example.com
+LinkedIn: Your LinkedIn
